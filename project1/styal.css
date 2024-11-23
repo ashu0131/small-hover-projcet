@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+#main{
+   
+     height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.shape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+#circle{
+
+    border-radius: 50%;
+}
+#dk{
+    margin-top: 50px;
+    rotate:45deg;
+}
+#dk h1{
+    rotate: -45deg;
+}
+#square:hover{
+    background-color: brown;
+    
+}
+#dk:hover{
+    background-color: blue;
+}
+#circle:hover{
+    background-color: green;
+}
